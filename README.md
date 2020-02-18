@@ -25,7 +25,7 @@ Be sure to uninstall BIND or any other DNS services on your machine before runni
 First, download the script and make it executable:
 
 ```
-wget https://raw.githubusercontent.com/Angristan/Local-DNS-resolver/master/unbound-install.sh
+wget https://raw.githubusercontent.com/loadcorp/local-dns-resolver_DNSrootWithoutArmyDNS_GOV/master/unbound-install.sh
 chmod +x unbound-install.sh
 ```
 
