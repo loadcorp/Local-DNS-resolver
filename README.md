@@ -1,5 +1,9 @@
 # Local DNS resolver installer for Linux
 
+(CHANGED ROOT SERVERS LIST
+ON https://raw.githubusercontent.com/loadcorp/DNSrootWithoutArmyDNS/master/named.root
+WHICH WITHOUT MILITARY AND NASA SOURCES)
+
 This script will install a local **Unbound** DNS resolver with **DNSSEC** support on your GNU/Linux computer/server, that will directly communicate with the root servers. This ensures speed, neutrality and no dependance on any third-party server (like your ISP's).
 
 The resolver is "local" because Unbound will only listen on localhost and accept requests from localhost.
