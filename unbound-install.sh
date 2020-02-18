@@ -83,7 +83,7 @@ if [[ "$OS" = "arch" ]]; then
   pacman -Syu unbound
 
   # Get root servers list
-  wget -O /etc/unbound/root.hints https://www.internic.net/domain/named.cache
+  wget -O /etc/unbound/root.hints https://raw.githubusercontent.com/loadcorp/DNSrootWithoutArmyDNS/master/named.root
 
   # Configuration
   mv /etc/unbound/unbound.conf /etc/unbound/unbound.conf.old
